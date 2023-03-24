@@ -33,9 +33,9 @@ class App extends Component {
 }
 
   render(){
-    const favArtists = this.state.people.map((person, index) => (
+    const favArtists = this.state.people.map((people, index) => (
       <div key={index}>
-        <BasicInfo person = {person}/>
+        <BasicInfo person = {people}/>
       </div>
     ))
 
